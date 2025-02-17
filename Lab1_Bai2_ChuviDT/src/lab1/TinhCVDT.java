@@ -18,12 +18,16 @@ public class TinhCVDT {
 		System.out.print("Nhập chiều rộng của hình chữ nhật: ");
 		double b= banPhim.nextDouble();
 		
+		
+		
 		double chuvi = 2 * (a+b);
 		double dtich = a*b;
+		double canhnho = Math.min(a, b);
 		
 		//Output
 		System.out.println("Chu vi hình chữ nhật: "+ chuvi);
 		System.out.println("Diện tích hình chữ nhật: "+ dtich);
+		System.out.println("Cạnh nhỏ của hình chữ nhật: "+ canhnho);
 	}
 
 }
